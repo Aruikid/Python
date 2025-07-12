@@ -8,7 +8,7 @@ class Point:
         """
         self.x, self.y = x, y
 
-    def distance(self, other):
+    def distance_to(self, other):
         """计算到另一个点的距离
         :param other: 另一个点
         """
@@ -30,4 +30,4 @@ p1 = Point(0, 6)
 p2 = Point(4, 9)
 print(p1)   
 print(p2)
-print(p1.distance(p2))
+print(p1.distance_to(p2))
